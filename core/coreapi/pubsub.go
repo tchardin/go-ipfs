@@ -118,5 +118,5 @@ func (msg *pubSubMessage) Seq() []byte {
 }
 
 func (msg *pubSubMessage) Topics() []string {
-	return msg.msg.TopicIDs
+	return []string{}
 }
